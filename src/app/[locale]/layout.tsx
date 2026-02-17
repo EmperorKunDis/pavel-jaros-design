@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "../global.css";
 import ClientBody from "../ClientBody";
-import Script from "next/script";
 import {NextIntlClientProvider} from 'next-intl';
 import {getMessages, getTranslations} from 'next-intl/server';
 import {routing} from '../../../i18n/routing';
@@ -23,22 +22,22 @@ export async function generateMetadata({params}: {params: Promise<{locale: strin
   const {locale} = await params;
   const t = await getTranslations({locale});
 
-  const title = "Pavel Jaroš - Realitní makléř | Keller Williams";
-  const description = "Profesionální realitní služby v Praze a okolí. Prodej, pronájem a odhad nemovitostí. Maximalizujte zisk z vaší nemovitosti.";
+  const title = "PJ Design — Interiérový design | Pavel Jaroš";
+  const description = "Tvoříme interiéry s duší a příběhem. Návrhy, 3D vizualizace a kompletní realizace interiérů na míru. Karlovarský kraj a celá ČR.";
 
   return {
     title,
     description,
-    keywords: ['realitní makléř', 'prodej nemovitostí', 'pronájem nemovitostí', 'odhad nemovitostí', 'Praha', 'Keller Williams', 'reality', 'byty', 'domy'],
+    keywords: ['interiérový design', 'návrh interiéru', '3D vizualizace', 'realizace interiérů', 'Karlovarský kraj', 'PJ Design', 'Pavel Jaroš', 'design na míru'],
     authors: [{name: 'Pavel Jaroš'}],
     creator: 'Pavel Jaroš',
-    publisher: 'Keller Williams',
+    publisher: 'PJ Design',
     formatDetection: {
       email: false,
       address: false,
       telephone: false,
     },
-    metadataBase: new URL('https://pavel-jaros.cz'),
+    metadataBase: new URL('https://pjdesign.cz'),
     alternates: {
       canonical: `/${locale}`,
       languages: {
@@ -53,14 +52,14 @@ export async function generateMetadata({params}: {params: Promise<{locale: strin
     openGraph: {
       title,
       description,
-      url: `https://pavel-jaros.cz/${locale}`,
-      siteName: 'Pavel Jaroš Reality',
+      url: `https://pjdesign.cz/${locale}`,
+      siteName: 'PJ Design',
       images: [
         {
-          url: 'https://ext.same-assets.com/2530056946/4049786394.png',
+          url: '/images/PavelDesignBezPozadi.png',
           width: 1200,
           height: 630,
-          alt: 'Pavel Jaroš - Realitní makléř',
+          alt: 'PJ Design — Interiérový design',
         },
       ],
       locale: locale,
@@ -70,7 +69,7 @@ export async function generateMetadata({params}: {params: Promise<{locale: strin
       card: 'summary_large_image',
       title,
       description,
-      images: ['https://ext.same-assets.com/2530056946/4049786394.png'],
+      images: ['/images/PavelDesignBezPozadi.png'],
     },
     robots: {
       index: true,
@@ -82,11 +81,6 @@ export async function generateMetadata({params}: {params: Promise<{locale: strin
         'max-image-preview': 'large',
         'max-snippet': -1,
       },
-    },
-    verification: {
-      // Add your verification codes when available
-      // google: 'your-google-site-verification',
-      // yandex: 'your-yandex-verification',
     },
   };
 }
@@ -106,60 +100,48 @@ export default async function RootLayout({
 }>) {
   const {locale} = await params;
 
-  // Ensure that the incoming `locale` is valid
-  if (!routing.locales.includes(locale as any)) {
+  if (!routing.locales.includes(locale as typeof routing.locales[number])) {
     notFound();
   }
 
-  // Providing all messages to the client
-  // side is the easiest way to get started
   const messages = await getMessages();
 
-  // Structured data for SEO
   const structuredData = {
     "@context": "https://schema.org",
-    "@type": "RealEstateAgent",
-    "name": "Pavel Jaroš",
-    "image": "https://ext.same-assets.com/2530056946/2707997203.png",
-    "telephone": "+420-XXX-XXX-XXX",
-    "email": "pavel.jaros@example.com",
+    "@type": "InteriorDesigner",
+    "name": "PJ Design — Pavel Jaroš",
+    "image": "/images/PavelDesignBezPozadi.png",
+    "telephone": "+420 777 558 730",
+    "email": "pavel.jaros@kwcz.cz",
     "address": {
       "@type": "PostalAddress",
-      "addressLocality": "Praha",
+      "streetAddress": "Kaprova 52/6",
+      "addressLocality": "Praha 1",
       "addressCountry": "CZ"
     },
-    "geo": {
-      "@type": "GeoCoordinates",
-      "latitude": "50.0755",
-      "longitude": "14.4378"
-    },
-    "url": `https://pavel-jaros.cz/${locale}`,
-    "logo": "https://ext.same-assets.com/2530056946/3299068684.svg",
-    "description": "Profesionální realitní služby v Praze a okolí. Prodej, pronájem a odhad nemovitostí.",
-    "priceRange": "$$",
-    "areaServed": {
-      "@type": "City",
-      "name": "Praha"
-    },
-    "knowsAbout": ["Real Estate", "Property Sales", "Property Rental", "Property Valuation"],
+    "url": `https://pjdesign.cz/${locale}`,
+    "description": "Tvoříme interiéry s duší a příběhem. Návrhy, 3D vizualizace a kompletní realizace interiérů na míru.",
+    "areaServed": [
+      {
+        "@type": "AdministrativeArea",
+        "name": "Karlovarský kraj"
+      },
+      {
+        "@type": "Country",
+        "name": "Česká republika"
+      }
+    ],
+    "knowsAbout": ["Interior Design", "3D Visualization", "Turnkey Realization", "Design Consultation"],
     "memberOf": {
       "@type": "Organization",
-      "name": "Keller Williams"
-    },
-    "aggregateRating": {
-      "@type": "AggregateRating",
-      "ratingValue": "5",
-      "reviewCount": "3"
+      "name": "PJ Group"
     }
   };
 
   return (
     <html lang={locale} className={`${geistSans.variable} ${geistMono.variable}`}>
       <head>
-        <Script
-          crossOrigin="anonymous"
-          src="//unpkg.com/same-runtime/dist/index.global.js"
-        />
+        <link rel="icon" href="/favicon.ico" sizes="any" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}

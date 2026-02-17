@@ -1,149 +1,198 @@
 {
-  "nav": {
-    "properties": "Properties",
-    "services": "Services",
-    "references": "References",
-    "about": "About Me",
-    "contact": "Contact",
-    "contactMe": "CONTACT ME"
-  },
   "cookie": {
-    "message": "To provide the best services, we use technologies such as cookies to store and/or access device information.",
-    "reject": "Reject",
-    "accept": "Accept",
-    "preferences": "View Preferences"
+    "message": "This website uses cookies to improve user experience. By using this website, you agree to our cookie policy.",
+    "accept": "Accept all",
+    "reject": "Reject all",
+    "preferences": "Show preferences"
+  },
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "portfolio": "Portfolio",
+    "discoverStyle": "Discover your style",
+    "about": "About me",
+    "contact": "Contact",
+    "cta": "Book a consultation"
   },
   "hero": {
-    "title": "Maximize the profit from your property",
-    "cta": "MY OFFERED SERVICES"
+    "title": "We create interiors with soul and story",
+    "subtitle": "From the first idea to the last detail. I design functional and timeless spaces that perfectly reflect your personality.",
+    "badges": "Karlovy Vary Region & all of Czechia | Premium materials | Individual approach",
+    "ctaPrimary": "View portfolio",
+    "ctaSecondary": "Book a consultation"
   },
-  "properties": {
-    "viewProperty": "VIEW PROPERTY",
-    "moreProperties": "MORE PROPERTIES"
+  "tiles": {
+    "tile1": {
+      "title": "Design tailored to your personality",
+      "text": "Every interior begins with understanding you — your pace, lifestyle, and the emotions you want to feel at home. Only then does the solution emerge — aesthetic, timeless, and precisely thought out."
+    },
+    "tile2": {
+      "title": "3D visualization that brings the future to the present",
+      "text": "Before we start the realization, you will see every detail in a realistic form. No surprises — just certainty that the result will be exactly as you envisioned."
+    },
+    "tile3": {
+      "title": "Style that stands the test of time",
+      "text": "Quality and harmony are key for us. Trends come and go — your home should work and look great long-term."
+    }
+  },
+  "portfolio": {
+    "title": "Spaces with a story",
+    "viewAll": "View all projects",
+    "project1": {
+      "name": "Harmony of wood and concrete",
+      "location": "Cheb"
+    },
+    "project2": {
+      "name": "First Republic elegance",
+      "location": "Karlovy Vary"
+    },
+    "project3": {
+      "name": "Scandinavian purity in a family house",
+      "location": "Sokolov"
+    }
   },
   "services": {
-    "title": "SERVICES",
-    "bookMeeting": "BOOK A MEETING",
-    "sale": {
-      "title": "SALES",
-      "description": "My goal is to sell your property for the highest possible price on the market and ensure the entire process runs smoothly and efficiently."
+    "title": "The path to your dream home",
+    "design": {
+      "title": "Interior design",
+      "text": "We create a comprehensive design concept including detailed 3D visualizations. Every element is thought through to be visually impressive and perfectly functional."
     },
-    "rent": {
-      "title": "RENTAL",
-      "description": "I always strive to achieve the highest rental price while finding solvent tenants interested in long-term rental."
+    "turnkey": {
+      "title": "Turnkey realization",
+      "text": "We ensure a complete transformation of your interior — from construction modifications, through custom furniture production to the final decorations. You just move into the finished space."
     },
-    "marketing": {
-      "title": "MARKETING & STRATEGY",
-      "description": "Marketing and advertising are an integral part of my work. I take care in choosing the right strategy with maximum commitment."
+    "consultation": {
+      "title": "Personal consultation",
+      "text": "For those who need a professional opinion, direction, or inspirational shift. We advise on layouts, colors, materials, and selection of statement pieces."
+    }
+  },
+  "philosophy": {
+    "title": "Design that understands you",
+    "text": "We create interiors that combine aesthetics, functionality, and the client's personal story.\n\nWe specialize in both design and complete interior realization — from concept, moodboard, and 3D visualizations to custom furniture and the final decoration.\n\nWe believe in design that is beautiful, thoughtful, and timeless. Every space is created individually, with respect for your needs, lifestyle, and uniqueness.",
+    "pjgroup": "We are part of the PJ Group — PJ Reality, PJ Reko, PJ Sprava, and PJ Design. Thanks to this, we offer a complete service under one roof: from rental and property management, through renovations to interior design."
+  },
+  "process": {
+    "title": "Together step by step",
+    "step1": {
+      "title": "Initial consultation and needs analysis",
+      "text": "We meet in person or online. I'll learn about your ideas, priorities, and budget."
     },
-    "presentation": {
-      "title": "PROPERTY PRESENTATION",
-      "description": "When presenting a property, I always emphasize detail using the latest technologies, including quality photography and 3D visualizations."
+    "step2": {
+      "title": "Concept creation and layout design",
+      "text": "I'll prepare a moodboard and several layout variants that define the direction of the entire project."
     },
-    "reconstruction": {
-      "title": "PROPERTY RECONSTRUCTION",
-      "description": "Thanks to experience from several complete reconstructions, I can recommend suitable solutions and arrange professionals if needed."
+    "step3": {
+      "title": "3D visualization and material selection",
+      "text": "We'll present a realistic version of your future interior. Together we'll select materials, colors, textures, and furnishings."
     },
-    "valuation": {
-      "title": "PROPERTY VALUATION",
-      "description": "For property valuation, I use proven tools such as price maps together with the land registry."
+    "step4": {
+      "title": "Technical documentation",
+      "text": "We'll prepare detailed documentation for craftsmen so that realization proceeds without errors and unnecessary improvisation."
     },
-    "activities": {
-      "subtitle": "WHAT I MOST OFTEN HELP MY CLIENTS WITH",
-      "title": "MY WORK INCLUDES THE FOLLOWING ACTIVITIES",
-      "list": {
-        "communication": "Business communication with prospects",
-        "targeting": "Identification and specification of target group",
-        "negotiation": "Negotiating the best sales conditions",
-        "documentation": "Documentation preparation",
-        "supervision": "Supervision of the business case from start to finish",
-        "strategy": "Setting marketing strategy and promotion",
-        "socialMedia": "Paid promotion on social media",
-        "materials": "Preparation and creation of advertising materials",
-        "flyers": "Flyer distribution",
-        "print": "Placement of advertisements in print media",
-        "portals": "Publishing listings on all real estate portals",
-        "websites": "Creating websites for properties"
+    "step5": {
+      "title": "Design supervision or turnkey realization",
+      "text": "We'll oversee every step, or handle everything completely. The result is a perfectly coordinated space ready for immediate use."
+    }
+  },
+  "discoverStyle": {
+    "title": "Find inspiration for your home",
+    "subtitle": "Every style has its unique charm. Hover your mouse (or tap on mobile) over individual names and watch how an empty space instantly transforms.",
+    "back": "Back",
+    "hoverHint": "Hover over a style to see its description",
+    "cta": {
+      "title": "Found a style that resonates with your soul?",
+      "text": "Let's tailor it exactly for you and your home.",
+      "button": "Book a consultation"
+    },
+    "styles": {
+      "rustic": {
+        "name": "Rustic",
+        "description": "Solid wood, natural stone, and the cozy atmosphere of a countryside estate."
+      },
+      "artdeco": {
+        "name": "Art Deco",
+        "description": "Elegance, geometric shapes, shiny metals, and luxurious velvet."
+      },
+      "boho": {
+        "name": "Boho",
+        "description": "Free spirit, natural materials, ethnic patterns, and lots of plants."
+      },
+      "glamour": {
+        "name": "Glamour",
+        "description": "Shine, luxurious materials, mirror surfaces, and dramatic elements."
+      },
+      "industrial": {
+        "name": "Industrial",
+        "description": "Exposed bricks, concrete, metal, and the raw beauty of factory halls."
+      },
+      "minimalism": {
+        "name": "Minimalism",
+        "description": "\"Less is more.\" Clean lines, neutral colors, and functionality without excess."
+      },
+      "provencal": {
+        "name": "Provencal",
+        "description": "The scent of lavender, the patina of old wood, and the romance of the French countryside."
+      },
+      "scandinavian": {
+        "name": "Scandinavian",
+        "description": "Light wood, simplicity, functionality, and the Nordic concept of coziness \"hygge\"."
+      },
+      "country": {
+        "name": "Country",
+        "description": "Traditional patterns, comfort, home warmth, and honest materials."
+      },
+      "vintage": {
+        "name": "Vintage",
+        "description": "Nostalgia, pieces with a story, and the elegance of old times in a modern interpretation."
       }
     }
   },
-  "about": {
-    "subtitle": "ABOUT ME",
-    "title": "PAVEL JAROŠ",
-    "intro": "My name is Pavel Jaroš and I am a real estate agent who constantly strives for professional growth and improvement in the field.",
-    "origin": "I come from Cheb and have been in real estate for four years as an investor (purchase - reconstruction - sale). I deal with the very popular so-called property flipping.",
-    "motivation": "Since I would like to improve in this field, I decided to pursue the path of a real estate agent. I enjoy this work mainly because of its diversity. I deal not only with business, but also with legal issues and construction itself. Every day is different, which fulfills me.",
-    "passion": "I enjoy finding suitable solutions, communicating, connecting suppliers, investors and everything else related to real estate. I like meeting new people and solving cases that others don't know how to handle. Client satisfaction is the highest reward for me.",
-    "values": "I am characterized by empathy and fully understand that each client requires an individual and flexible approach. I value good reputation and name.",
-    "hobby": "In my free time, I enjoy sports, I can no longer imagine a well-spent day without visiting the gym. As a proper enthusiast, I also love adrenaline - parachute jumps and any adrenaline attractions, I go all in. Life must be lived.",
-    "location": {
-      "title": "LOCATION",
-      "text": "I operate mainly in Prague, in the Central Bohemian and West Bohemian regions, but I am open to cooperation throughout the Czech Republic."
-    },
-    "experience": {
-      "title": "HOW LONG?",
-      "text1": "As a real estate investor, I have four years of successful projects behind me, including several successful property flips.",
-      "text2": "Until recently, I arranged complete apartment renovations in their original state myself, now I have a small construction company and it is therefore no problem for me to help a client with anything and modify the property so that the result is easy sale and higher profit."
-    },
-    "commission": {
-      "title": "COMMISSION",
-      "text": "When selling a property, the fee known as commission is paid by the seller. Ultimately, this is logical because the seller is the one who chooses the agent and whose interests the agent defends. The commission amount is not fixed and may vary depending on a number of factors, such as sales strategy, marketing budget, location and property price. However, the commission usually ranges between 3 - 5% of the purchase price of the property."
-    },
-    "why": {
-      "title": "WHY WORK WITH ME?",
-      "individual": "Individual client-focused approach",
-      "professional": "Professional property presentation",
-      "efficiency": "Efficiency",
-      "experience": "Many years of experience in real estate",
-      "flexibility": "Flexibility"
-    }
-  },
-  "references": {
-    "subtitle": "WHAT MY CLIENTS SAY ABOUT ME",
-    "title": "REFERENCES",
-    "client1": {
-      "name": "Daniela Baudýsová",
-      "text": "Thank you for the quick and trouble-free sale of the cottage. Mr. Jaroš is helpful, accommodating and very professional. He understands his work. We definitely recommend."
-    },
-    "client2": {
-      "name": "David",
-      "text": "Mr. Jaroš was great - professional, fast and always available. Sometimes I felt that if needed, he would sell his own grandmother - and still negotiate a better price. Thanks for the trouble-free sale and human approach."
-    },
-    "client3": {
-      "name": "Josef Neumann",
-      "text": "Proactive approach and perfect communication. Maximum satisfaction!"
-    }
-  },
   "contact": {
-    "subtitle": "STAY IN TOUCH",
-    "title": "CONTACT",
-    "address": {
-      "title": "ADDRESS",
-      "text": "Kaprova 52/6, Prague 1"
-    },
-    "phone": {
-      "title": "PHONE",
-      "text": "+420 777 558 730"
-    },
-    "email": {
-      "title": "E-MAIL",
-      "text": "pavel.jaros@kwcz.cz"
-    },
+    "title": "Let's create an interior together that will bring you joy every day",
+    "subtitle": "Tell us more about your project. We'll get back to you within 48 hours and arrange the next steps.",
+    "phone": "+420 777 558 730",
+    "email": "pavel.jaros@kwcz.cz",
+    "address": "Kaprova 52/6, Prague 1",
+    "ico": "ID: 10846671",
     "form": {
-      "name": "Name and Surname",
-      "email": "E-mail",
-      "phone": "Phone Number",
-      "message": "Your Message",
-      "weekend": "Can we contact you on weekends?",
-      "gdpr": "Do you agree to the processing of personal data according to Act No. 101/2000 Coll. On the protection of personal data",
-      "submit": "SEND"
+      "name": "Full name*",
+      "email": "Email*",
+      "phone": "Phone number*",
+      "service": "What service are you interested in?",
+      "serviceOnline": "Online consultation (120 min)",
+      "serviceDesign": "Interior design",
+      "serviceTurnkey": "Turnkey realization",
+      "propertyType": "Property type (Apartment, House, Office...)",
+      "budget": "Estimated budget (approximately)",
+      "message": "Your message and wishes*",
+      "gdpr": "I agree to the processing of personal data.*",
+      "submit": "Send inquiry",
+      "sending": "Sending...",
+      "success": "Thank you for your message! We'll get back to you as soon as possible.",
+      "error": "An error occurred while sending the form. Please try again."
     }
   },
   "footer": {
-    "gdpr": "By browsing the website, you agree to the processing of personal data and cookies.",
-    "business": "Sole proprietor, doing business on the basis of a trade license, ID: 10846671, authorized to act on behalf of Keller Williams Metropolitan, which is an establishment of MC Metropolitan s.r.o., ID: 07796340.",
-    "ethics": "Code of Ethics",
-    "consumer": "Consumer Information",
-    "whistleblow": "Internal Reporting System"
+    "contact": {
+      "title": "Get in touch",
+      "name": "Pavel Jaros, Interior Designer",
+      "phone": "+420 777 558 730",
+      "email": "pavel.jaros@kwcz.cz",
+      "ico": "ID: 10846671",
+      "address": "Kaprova 52/6, Prague 1"
+    },
+    "services": {
+      "title": "Complete services for your home",
+      "reconstruction": "PJ-Rekonstrukce",
+      "management": "PJ-Sprava",
+      "reality": "PJ-Reality"
+    },
+    "social": {
+      "title": "Follow me",
+      "instagram": "Instagram (daily inspiration)",
+      "pinterest": "Pinterest (trends and boards)"
+    },
+    "copyright": "© 2025 PJ-Design. We create interiors with soul.",
+    "privacy": "Privacy policy"
   }
 }

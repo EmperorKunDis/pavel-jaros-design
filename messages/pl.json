@@ -1,149 +1,198 @@
 {
-  "nav": {
-    "properties": "Nieruchomości",
-    "services": "Usługi",
-    "references": "Referencje",
-    "about": "O mnie",
-    "contact": "Kontakt",
-    "contactMe": "SKONTAKTUJ SIĘ ZE MNĄ"
-  },
   "cookie": {
-    "message": "Aby zapewnić najlepsze usługi, używamy technologii takich jak pliki cookie do przechowywania i/lub uzyskiwania dostępu do informacji o urządzeniu.",
-    "reject": "Odrzuć",
-    "accept": "Akceptuj",
+    "message": "Ta strona internetowa wykorzystuje pliki cookies w celu poprawy komfortu użytkowania. Korzystając z tej strony, zgadzasz się z naszą polityką cookies.",
+    "accept": "Zaakceptuj wszystkie",
+    "reject": "Odrzuć wszystkie",
     "preferences": "Pokaż preferencje"
   },
-  "hero": {
-    "title": "Zmaksymalizuj zysk z Twojej nieruchomości",
-    "cta": "MOJE OFEROWANE USŁUGI"
+  "nav": {
+    "home": "Strona główna",
+    "services": "Usługi",
+    "portfolio": "Portfolio",
+    "discoverStyle": "Odkryj swój styl",
+    "about": "O mnie",
+    "contact": "Kontakt",
+    "cta": "Umów konsultację"
   },
-  "properties": {
-    "viewProperty": "ZOBACZ NIERUCHOMOŚĆ",
-    "moreProperties": "WIĘCEJ NIERUCHOMOŚCI"
+  "hero": {
+    "title": "Tworzymy wnętrza z duszą i historią",
+    "subtitle": "Od pierwszego pomysłu do ostatniego detalu. Projektuję funkcjonalne i ponadczasowe przestrzenie, które doskonale odzwierciedlają Twoją osobowość.",
+    "badges": "Region Karlowy Wary i cała Czechia | Materiały premium | Indywidualne podejście",
+    "ctaPrimary": "Zobacz portfolio",
+    "ctaSecondary": "Umów konsultację"
+  },
+  "tiles": {
+    "tile1": {
+      "title": "Design dopasowany do Twojej osobowości",
+      "text": "Każde wnętrze zaczyna się od zrozumienia Ciebie — Twojego tempa, stylu życia i emocji, które chcesz czuć w domu. Dopiero potem powstaje rozwiązanie — estetyczne, ponadczasowe i precyzyjnie przemyślane."
+    },
+    "tile2": {
+      "title": "Wizualizacja 3D, która przenosi przyszłość do teraźniejszości",
+      "text": "Zanim zaczniemy realizację, zobaczysz każdy szczegół w realistycznej formie. Żadnych niespodzianek — tylko pewność, że wynik będzie dokładnie taki, jak sobie wyobraziłeś."
+    },
+    "tile3": {
+      "title": "Styl, który wytrzymuje próbę czasu",
+      "text": "Kluczowa jest dla nas jakość i harmonia. Trendy przychodzą i odchodzą — Twój dom ma działać i wyglądać dobrze długoterminowo."
+    }
+  },
+  "portfolio": {
+    "title": "Przestrzenie z historią",
+    "viewAll": "Zobacz wszystkie projekty",
+    "project1": {
+      "name": "Harmonia drewna i betonu",
+      "location": "Cheb"
+    },
+    "project2": {
+      "name": "Elegancja Pierwszej Republiki",
+      "location": "Karlowe Wary"
+    },
+    "project3": {
+      "name": "Skandynawska czystość w domu rodzinnym",
+      "location": "Sokolov"
+    }
   },
   "services": {
-    "title": "USŁUGI",
-    "bookMeeting": "UMÓW SPOTKANIE",
-    "sale": {
-      "title": "SPRZEDAŻ",
-      "description": "Moim celem jest sprzedaż Twojej nieruchomości za najwyższą możliwą cenę na rynku i zapewnienie, że cały proces przebiegnie płynnie i efektywnie."
+    "title": "Droga do Twojego wymarzonego domu",
+    "design": {
+      "title": "Projekt wnętrza",
+      "text": "Stworzymy kompleksową koncepcję designu, w tym szczegółowe wizualizacje 3D. Każdy element jest przemyślany tak, aby był wizualnie imponujący i jednocześnie doskonale funkcjonalny."
     },
-    "rent": {
-      "title": "WYNAJEM",
-      "description": "Zawsze staram się osiągnąć najwyższą cenę wynajmu, jednocześnie znajdując wypłacalnych najemców zainteresowanych długoterminowym wynajmem."
+    "turnkey": {
+      "title": "Realizacja pod klucz",
+      "text": "Zapewnimy kompletną metamorfozę Twojego wnętrza — od prac budowlanych, przez produkcję mebli na zamówienie po ostatnie dekoracje. Ty po prostu wprowadzasz się do gotowej przestrzeni."
     },
-    "marketing": {
-      "title": "MARKETING I STRATEGIA",
-      "description": "Marketing i reklama są integralną częścią mojej pracy. Dbam o wybór odpowiedniej strategii z maksymalnym zaangażowaniem."
+    "consultation": {
+      "title": "Konsultacja osobista",
+      "text": "Dla tych, którzy potrzebują profesjonalnej opinii, kierunku lub inspirującego impulsu. Doradzimy w kwestii układów, kolorów, materiałów i wyboru elementów wyróżniających."
+    }
+  },
+  "philosophy": {
+    "title": "Design, który Cię rozumie",
+    "text": "Tworzymy wnętrza, które łączą estetykę, funkcjonalność i osobistą historię klienta.\n\nSpecjalizujemy się zarówno w projektowaniu, jak i kompletnej realizacji wnętrz — od koncepcji, moodboardu i wizualizacji 3D po meble na zamówienie i ostatnią dekorację.\n\nWierzymy w design, który jest piękny, przemyślany i ponadczasowy. Każdą przestrzeń tworzymy indywidualnie, z szacunkiem dla Twoich potrzeb, stylu życia i wyjątkowości.",
+    "pjgroup": "Jesteśmy częścią grupy PJ Group — PJ Reality, PJ Reko, PJ Správa i PJ Design. Dzięki temu oferujemy kompletny serwis pod jednym dachem: od wynajmu i zarządzania nieruchomościami, przez remonty po projektowanie wnętrz."
+  },
+  "process": {
+    "title": "Razem krok po kroku",
+    "step1": {
+      "title": "Pierwsza konsultacja i analiza potrzeb",
+      "text": "Poznajemy się osobiście lub online. Poznam Twoje wyobrażenia, priorytety i budżet."
     },
-    "presentation": {
-      "title": "PREZENTACJA NIERUCHOMOŚCI",
-      "description": "Prezentując nieruchomość, zawsze kładę nacisk na szczegóły, wykorzystując najnowsze technologie, w tym wysokiej jakości fotografię i wizualizacje 3D."
+    "step2": {
+      "title": "Tworzenie koncepcji i projektu układu",
+      "text": "Przygotuję moodboard i kilka wariantów układu, które zdefiniują kierunek całego projektu."
     },
-    "reconstruction": {
-      "title": "RENOWACJA NIERUCHOMOŚCI",
-      "description": "Dzięki doświadczeniu z kilku kompletnych renowacji mogę polecić odpowiednie rozwiązania i w razie potrzeby zorganizować specjalistów."
+    "step3": {
+      "title": "Wizualizacja 3D i wybór materiałów",
+      "text": "Przedstawimy realistyczną wersję Twojego przyszłego wnętrza. Wspólnie wybierzemy materiały, kolory, tekstury i wyposażenie."
     },
-    "valuation": {
-      "title": "WYCENA NIERUCHOMOŚCI",
-      "description": "Do wyceny nieruchomości używam sprawdzonych narzędzi, takich jak mapy cen wraz z księgą wieczystą."
+    "step4": {
+      "title": "Dokumentacja techniczna",
+      "text": "Przygotujemy szczegółową dokumentację dla rzemieślników, aby realizacja przebiegła bez błędów i niepotrzebnych improwizacji."
     },
-    "activities": {
-      "subtitle": "W CZYM NAJCZĘŚCIEJ POMAGAM MOIM KLIENTOM",
-      "title": "MOJA PRACA OBEJMUJE NASTĘPUJĄCE DZIAŁANIA",
-      "list": {
-        "communication": "Komunikacja biznesowa z potencjalnymi klientami",
-        "targeting": "Identyfikacja i specyfikacja grupy docelowej",
-        "negotiation": "Negocjowanie najlepszych warunków sprzedaży",
-        "documentation": "Przygotowanie dokumentacji",
-        "supervision": "Nadzór nad sprawą biznesową od początku do końca",
-        "strategy": "Ustalanie strategii marketingowej i promocji",
-        "socialMedia": "Płatna promocja w mediach społecznościowych",
-        "materials": "Przygotowanie i tworzenie materiałów reklamowych",
-        "flyers": "Dystrybucja ulotek",
-        "print": "Umieszczanie ogłoszeń w mediach drukowanych",
-        "portals": "Publikowanie ofert na wszystkich portalach nieruchomości",
-        "websites": "Tworzenie stron internetowych dla nieruchomości"
+    "step5": {
+      "title": "Nadzór autorski lub realizacja pod klucz",
+      "text": "Będziemy nadzorować każdy krok lub zajmiemy się wszystkim kompleksowo. Efektem jest doskonale skoordynowana przestrzeń gotowa do natychmiastowego użytkowania."
+    }
+  },
+  "discoverStyle": {
+    "title": "Znajdź inspirację dla swojego domu",
+    "subtitle": "Każdy styl ma swój unikalny urok. Najedź myszką (lub dotknij na telefonie) na poszczególne nazwy i obserwuj, jak pusta przestrzeń natychmiast się przemienia.",
+    "back": "Wstecz",
+    "hoverHint": "Najedź myszką na styl, aby zobaczyć opis",
+    "cta": {
+      "title": "Znalazłeś styl, który rezonuje z Twoją duszą?",
+      "text": "Dopasujmy go dokładnie do Ciebie i Twojego domu.",
+      "button": "Umów konsultację"
+    },
+    "styles": {
+      "rustic": {
+        "name": "Rustykalny",
+        "description": "Masywne drewno, naturalny kamień i przytulna atmosfera wiejskiej posiadłości."
+      },
+      "artdeco": {
+        "name": "Art Deco",
+        "description": "Elegancja, geometryczne kształty, błyszczące metale i luksusowy aksamit."
+      },
+      "boho": {
+        "name": "Boho",
+        "description": "Wolny duch, naturalne materiały, etniczne wzory i mnóstwo roślin."
+      },
+      "glamour": {
+        "name": "Glamour",
+        "description": "Blask, luksusowe materiały, lustrzane powierzchnie i dramatyczne elementy."
+      },
+      "industrial": {
+        "name": "Industrialny",
+        "description": "Odsłonięte cegły, beton, metal i surowe piękno hal fabrycznych."
+      },
+      "minimalism": {
+        "name": "Minimalizm",
+        "description": "\"Mniej znaczy więcej.\" Czyste linie, neutralne kolory i funkcjonalność bez zbędności."
+      },
+      "provencal": {
+        "name": "Prowansalski",
+        "description": "Zapach lawendy, patyna starego drewna i romantyka francuskiej prowincji."
+      },
+      "scandinavian": {
+        "name": "Skandynawski",
+        "description": "Jasne drewno, prostota, funkcjonalność i skandynawska koncepcja przytulności \"hygge\"."
+      },
+      "country": {
+        "name": "Wiejski",
+        "description": "Tradycyjne wzory, komfort, ciepło domowego ogniska i uczciwe materiały."
+      },
+      "vintage": {
+        "name": "Vintage",
+        "description": "Nostalgia, przedmioty z historią i elegancja dawnych czasów w nowoczesnej interpretacji."
       }
     }
   },
-  "about": {
-    "subtitle": "O MNIE",
-    "title": "PAVEL JAROŠ",
-    "intro": "Nazywam się Pavel Jaroš i jestem agentem nieruchomości, który nieustannie dąży do rozwoju zawodowego i doskonalenia w tej dziedzinie.",
-    "origin": "Pochodzę z Chebu i od czterech lat działam w nieruchomościach jako inwestor (zakup - renowacja - sprzedaż). Zajmuję się bardzo popularnym tzw. flippingiem nieruchomości.",
-    "motivation": "Ponieważ chciałbym się doskonalić w tej dziedzinie, zdecydowałem się na ścieżkę agenta nieruchomości. Ta praca sprawia mi przyjemność głównie ze względu na jej różnorodność. Zajmuję się nie tylko biznesem, ale także kwestiami prawnymi i samą budową. Każdy dzień jest inny, co mnie wypełnia.",
-    "passion": "Lubię znajdować odpowiednie rozwiązania, komunikować się, łączyć dostawców, inwestorów i wszystko inne związane z nieruchomościami. Lubię spotykać nowych ludzi i rozwiązywać sprawy, z którymi inni sobie nie radzą. Zadowolenie klientów jest dla mnie najwyższą nagrodą.",
-    "values": "Charakteryzuję się empatią i w pełni rozumiem, że każdy klient wymaga indywidualnego i elastycznego podejścia. Cenię dobrą reputację i imię.",
-    "hobby": "W wolnym czasie lubię uprawiać sport, nie wyobrażam już sobie dobrze spędzonego dnia bez wizyty na siłowni. Jako prawdziwy entuzjasta kocham też adrenalinę - skoki spadochronowe i wszelkie atrakcje adrenalinowe, idę na całość. Życie trzeba żyć.",
-    "location": {
-      "title": "LOKALIZACJA",
-      "text": "Działam głównie w Pradze, w regionach środkowoczeskim i zachodnioczeski, ale jestem otwarty na współpracę w całej Republice Czeskiej."
-    },
-    "experience": {
-      "title": "JAK DŁUGO?",
-      "text1": "Jako inwestor nieruchomości mam za sobą cztery lata udanych projektów, w tym kilka udanych flippingów nieruchomości.",
-      "text2": "Do niedawna sam organizowałem kompletne remonty mieszkań w ich pierwotnym stanie, teraz mam małą firmę budowlaną i nie stanowi dla mnie problemu pomoc klientowi w czymkolwiek i modyfikacja nieruchomości tak, aby rezultatem była łatwa sprzedaż i wyższy zysk."
-    },
-    "commission": {
-      "title": "PROWIZJA",
-      "text": "Przy sprzedaży nieruchomości opłata znana jako prowizja jest płacona przez sprzedającego. Ostatecznie jest to logiczne, ponieważ sprzedający jest tym, kto wybiera agenta i którego interesy agent broni. Kwota prowizji nie jest stała i może się różnić w zależności od wielu czynników, takich jak strategia sprzedaży, budżet marketingowy, lokalizacja i cena nieruchomości. Jednak prowizja zazwyczaj mieści się w przedziale 3 - 5% ceny zakupu nieruchomości."
-    },
-    "why": {
-      "title": "DLACZEGO WARTO ZE MNĄ WSPÓŁPRACOWAĆ?",
-      "individual": "Indywidualne podejście zorientowane na klienta",
-      "professional": "Profesjonalna prezentacja nieruchomości",
-      "efficiency": "Efektywność",
-      "experience": "Wieloletnie doświadczenie w nieruchomościach",
-      "flexibility": "Elastyczność"
-    }
-  },
-  "references": {
-    "subtitle": "CO MÓWIĄ O MNIE MOJE KLIENCI",
-    "title": "REFERENCJE",
-    "client1": {
-      "name": "Daniela Baudýsová",
-      "text": "Dziękujemy za szybką i bezproblemową sprzedaż domku. Pan Jaroš jest pomocny, uczynny i bardzo profesjonalny. Rozumie swoją pracę. Zdecydowanie polecamy."
-    },
-    "client2": {
-      "name": "David",
-      "text": "Pan Jaroš był świetny - profesjonalny, szybki i zawsze dostępny. Czasami miałem wrażenie, że gdyby było trzeba, sprzedałby własną babcię - a mimo to wynegocjowałby lepszą cenę. Dzięki za bezproblemową sprzedaż i ludzkie podejście."
-    },
-    "client3": {
-      "name": "Josef Neumann",
-      "text": "Proaktywne podejście i doskonała komunikacja. Maksymalna satysfakcja!"
-    }
-  },
   "contact": {
-    "subtitle": "POZOSTAŃMY W KONTAKCIE",
-    "title": "KONTAKT",
-    "address": {
-      "title": "ADRES",
-      "text": "Kaprova 52/6, Praga 1"
-    },
-    "phone": {
-      "title": "TELEFON",
-      "text": "+420 777 558 730"
-    },
-    "email": {
-      "title": "E-MAIL",
-      "text": "pavel.jaros@kwcz.cz"
-    },
+    "title": "Stwórzmy razem wnętrze, które będzie Cię cieszyć każdego dnia",
+    "subtitle": "Napisz do nas więcej o swoim projekcie. Odezwiemy się w ciągu 48 godzin i ustalimy dalsze kroki.",
+    "phone": "+420 777 558 730",
+    "email": "pavel.jaros@kwcz.cz",
+    "address": "Kaprova 52/6, Praga 1",
+    "ico": "NIP: 10846671",
     "form": {
-      "name": "Imię i nazwisko",
-      "email": "E-mail",
-      "phone": "Numer telefonu",
-      "message": "Twoja wiadomość",
-      "weekend": "Czy możemy skontaktować się z Tobą w weekendy?",
-      "gdpr": "Czy zgadzasz się na przetwarzanie danych osobowych zgodnie z ustawą nr 101/2000 Dz.U. o ochronie danych osobowych",
-      "submit": "WYŚLIJ"
+      "name": "Imię i nazwisko*",
+      "email": "E-mail*",
+      "phone": "Numer telefonu*",
+      "service": "Jaka usługa Cię interesuje?",
+      "serviceOnline": "Konsultacja online (120 min)",
+      "serviceDesign": "Projekt wnętrza",
+      "serviceTurnkey": "Realizacja pod klucz",
+      "propertyType": "Typ nieruchomości (Mieszkanie, Dom, Biuro...)",
+      "budget": "Szacunkowy budżet (orientacyjnie)",
+      "message": "Twoja wiadomość i życzenia*",
+      "gdpr": "Wyrażam zgodę na przetwarzanie danych osobowych.*",
+      "submit": "Wyślij zapytanie",
+      "sending": "Wysyłanie...",
+      "success": "Dziękujemy za wiadomość! Odezwiemy się jak najszybciej.",
+      "error": "Wystąpił błąd podczas wysyłania formularza. Spróbuj ponownie."
     }
   },
   "footer": {
-    "gdpr": "Przeglądając stronę, zgadzasz się na przetwarzanie danych osobowych i plików cookie.",
-    "business": "Jednoosobowy przedsiębiorca, prowadzący działalność na podstawie licencji handlowej, ID: 10846671, upoważniony do działania w imieniu Keller Williams Metropolitan, będącego placówką MC Metropolitan s.r.o., ID: 07796340.",
-    "ethics": "Kodeks etyczny",
-    "consumer": "Informacje dla konsumentów",
-    "whistleblow": "Wewnętrzny system zgłaszania"
+    "contact": {
+      "title": "Skontaktuj się ze mną",
+      "name": "Pavel Jaroš, Projektant wnętrz",
+      "phone": "+420 777 558 730",
+      "email": "pavel.jaros@kwcz.cz",
+      "ico": "NIP: 10846671",
+      "address": "Kaprova 52/6, Praga 1"
+    },
+    "services": {
+      "title": "Kompleksowe usługi dla Twojego domu",
+      "reconstruction": "PJ-Rekonstrukce",
+      "management": "PJ-Správa",
+      "reality": "PJ-Reality"
+    },
+    "social": {
+      "title": "Obserwuj mnie",
+      "instagram": "Instagram (codzienna inspiracja)",
+      "pinterest": "Pinterest (trendy i tablice)"
+    },
+    "copyright": "© 2025 PJ-Design. Tworzymy wnętrza z duszą.",
+    "privacy": "Polityka prywatności"
   }
 }

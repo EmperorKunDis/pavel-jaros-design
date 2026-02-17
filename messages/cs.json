@@ -15,13 +15,28 @@
     "cta": "Domluvit si konzultaci"
   },
   "hero": {
-    "title": "Vytváříme interiéry s duší a příběhem.",
-    "subtitle": "Od prvního nápadu po poslední polštář. Navrhuji funkční a krásné prostory, které jsou dokonalým odrazem vaší osobnosti.",
+    "title": "Tvoříme interiéry s duší a příběhem",
+    "subtitle": "Od prvního nápadu po poslední detail. Navrhuji funkční a nadčasové prostory, které dokonale odrážejí vaši osobnost.",
+    "badges": "Karlovarský kraj & celá ČR | Prémiové materiály | Individuální přístup",
     "ctaPrimary": "Prohlédnout portfolio",
     "ctaSecondary": "Domluvit si konzultaci"
   },
+  "tiles": {
+    "tile1": {
+      "title": "Design na míru vaší osobnosti",
+      "text": "Každý interiér začíná pochopením vás samotných, vašeho tempa, stylu života a emocí, které chcete doma cítit. Teprve potom vzniká řešení — estetické, nadčasové a precizně promyšlené."
+    },
+    "tile2": {
+      "title": "3D vizualizace, která přenese budoucnost do přítomnosti",
+      "text": "Než začneme realizovat, uvidíte každý detail v realistické podobě. Žádná překvapení — jen jistota, že výsledek bude přesně podle vás."
+    },
+    "tile3": {
+      "title": "Styl, který obstojí v čase",
+      "text": "Klíčová je pro nás kvalita a harmonie. Trendy přicházejí a odcházejí — váš domov má fungovat a ladit dlouhodobě."
+    }
+  },
   "portfolio": {
-    "title": "Prostory, které vyprávějí příběh",
+    "title": "Prostory s příběhem",
     "viewAll": "Zobrazit všechny projekty",
     "project1": {
       "name": "Harmonie dřeva a betonu",
@@ -40,47 +55,50 @@
     "title": "Cesta za vaším vysněným domovem",
     "design": {
       "title": "Návrh interiéru",
-      "text": "Vytvořím kompletní designový koncept vašeho prostoru, včetně realistických 3D vizualizací, aby byl nejen krásný, ale i dokonale funkční."
+      "text": "Vytvoříme komplexní designový koncept včetně detailních 3D vizualizací. Každý prvek promýšlíme tak, aby byl vizuálně působivý a zároveň perfektně funkční."
     },
     "turnkey": {
       "title": "Realizace na klíč",
-      "text": "Převezmu za vás veškeré starosti. Od stavebních úprav ve spolupráci s PJ-Rekonstrukce až po dodání nábytku a finálních dekorací."
+      "text": "Zajistíme kompletní přeměnu vašeho interiéru — od stavebních úprav, přes zakázkovou výrobu nábytku až po poslední dekorace. Vy se jen nastěhujete do hotového."
     },
     "consultation": {
       "title": "Osobní konzultace",
-      "text": "Potřebujete jen poradit s barvami, dispozicí nebo výběrem doplňků? Jsem tu pro vás, abych vás nasměroval správným směrem."
+      "text": "Pro ty, kteří potřebují profesionální názor, směr či inspirační posun. Poradíme s dispozicemi, barvami, materiály i výběrem solitérů."
     }
   },
   "philosophy": {
     "title": "Design, který vám rozumí",
-    "text": "Věřím, že dobrý design je dokonalým spojením estetiky, funkčnosti a především osobnosti klienta. Nejsem tu proto, abych vám vnucoval svůj styl, ale abych naslouchal vašim potřebám a přáním. Společně vytvoříme prostor, který bude jedinečný – stejně jako vy."
+    "text": "Vytváříme interiéry, které spojují estetiku, funkčnost a osobní příběh klienta.\n\nSpecializujeme se na návrhy i kompletní realizace interiérů — od konceptu, moodboardu a 3D vizualizací až po zakázkový nábytek a poslední dekoraci.\n\nVěříme v design, který je krásný, promyšlený a nadčasový. Každý prostor tvoříme individuálně, s respektem k vašim potřebám, životnímu stylu a osobitosti.",
+    "pjgroup": "Jsme součástí skupiny PJ Group — PJ Reality, PJ Reko, PJ Správa a PJ Design. Díky tomu nabízíme kompletní servis pod jednou střechou: od pronájmu a správy nemovitostí, přes rekonstrukce až po interiérový design."
   },
   "process": {
     "title": "Společně krok za krokem",
     "step1": {
-      "title": "Úvodní schůzka a analýza potřeb",
-      "text": "Poznáme se, probereme vaše sny, životní styl a rozpočet."
+      "title": "Úvodní konzultace a analýza potřeb",
+      "text": "Poznáme se osobně nebo online. Zjistím vaše představy, priority i rozpočet."
     },
     "step2": {
       "title": "Tvorba konceptu a dispozičního řešení",
-      "text": "Připravím náladovou nástěnku (moodboard) a několik variant uspořádání prostoru."
+      "text": "Připravím moodboard a několik dispozičních variant, které definují směr celého projektu."
     },
     "step3": {
       "title": "3D vizualizace a výběr materiálů",
-      "text": "Váš budoucí interiér uvidíte v realistické podobě a společně vybereme konkrétní materiály, barvy a zařizovací předměty."
+      "text": "Představíme vám realistickou podobu budoucího interiéru. Společně vybereme materiály, barvy, textury a vybavení."
     },
     "step4": {
       "title": "Technická dokumentace",
-      "text": "Vypracuji detailní plány pro řemeslníky, aby realizace proběhla hladce a přesně."
+      "text": "Vypracujeme detailní podklady pro řemeslníky, aby realizace proběhla bez chyb a zbytečných improvizací."
     },
     "step5": {
-      "title": "Autorský dozor nebo kompletní realizace",
-      "text": "Dohlédnu na průběh prací nebo vše zařídím kompletně na klíč."
+      "title": "Autorský dozor nebo realizace na klíč",
+      "text": "Dohlédneme na každý krok, nebo vše zajistíme kompletně. Výsledek je perfektně sladěný prostor připravený k okamžitému užívání."
     }
   },
   "discoverStyle": {
     "title": "Najděte inspiraci pro svůj domov",
     "subtitle": "Každý styl má své jedinečné kouzlo. Najeďte myší (nebo klikněte na mobilu) na jednotlivé názvy a sledujte, jak se prázdný prostor okamžitě promění.",
+    "back": "Zpět",
+    "hoverHint": "Najeďte myší na styl pro zobrazení popisu",
     "cta": {
       "title": "Našli jste styl, který rezonuje s vaší duší?",
       "text": "Pojďme ho společně přizpůsobit přesně pro vás a váš domov.",
@@ -130,12 +148,12 @@
     }
   },
   "contact": {
-    "title": "Pojďme společně vytvořit váš vysněný prostor",
-    "subtitle": "Napište nám o svém projektu. Ozveme se vám do 48 hodin a domluvíme si první kroky.",
+    "title": "Vytvořme společně interiér, který vás bude těšit každý den",
+    "subtitle": "Napište nám více informací o svém projektu. Do 48 hodin se vám ozveme a domluvíme další postup.",
     "phone": "+420 777 558 730",
     "email": "pavel.jaros@kwcz.cz",
-    "address": "Karlovarský kraj",
-    "ico": "IČO: [Doplnit IČO]",
+    "address": "Kaprova 52/6, Praha 1",
+    "ico": "IČO: 10846671",
     "form": {
       "name": "Jméno a Příjmení*",
       "email": "E-mail*",
@@ -160,8 +178,8 @@
       "name": "Pavel Jaroš, Interiérový designér",
       "phone": "+420 777 558 730",
       "email": "pavel.jaros@kwcz.cz",
-      "ico": "IČO: [Doplnit IČO]",
-      "address": "[Adresa ateliéru/kanceláře]"
+      "ico": "IČO: 10846671",
+      "address": "Kaprova 52/6, Praha 1"
     },
     "services": {
       "title": "Komplexní služby pro váš domov",
